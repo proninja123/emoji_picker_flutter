@@ -16,7 +16,7 @@ class _DefaultBottomActionBarState extends State<DefaultBottomActionBar> {
   Widget build(BuildContext context) {
     return Container(
       color: widget.config.bottomActionBarConfig.backgroundColor,
-      margin: const EdgeInsets.only(bottom: 10),
+      margin: const EdgeInsets.only(bottom: 10, left: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
