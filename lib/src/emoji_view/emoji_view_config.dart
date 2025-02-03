@@ -13,7 +13,7 @@ typedef EmojiViewBuilder = Widget Function(
 /// Default Widget if no recent is available
 const DefaultNoRecentsWidget = Text(
   'No Recents',
-  style: TextStyle(fontSize: 20, color: Colors.black26),
+  style: TextStyle(fontSize: 20, color: Colors.white),
   textAlign: TextAlign.center,
 );
 
