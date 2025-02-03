@@ -65,7 +65,7 @@ class DefaultSearchViewState extends SearchViewState {
                       hintText: widget.config.searchViewConfig.hintText,
                       hintStyle: widget.config.searchViewConfig.hintTextStyle,
                       contentPadding:
-                          const EdgeInsets.symmetric(horizontal: 16),
+                          const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
                     ),
                   ),
                 ),
